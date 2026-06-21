@@ -1,0 +1,63 @@
+@media (max-width: 1024px) {
+  #top_wrapper {
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #top_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #inp_deadline {
+    height: 40px;
+  }
+
+  .set_deadline {
+    height: 40px;
+  }
+
+  #timer__total {
+    font-size: 30px;
+  }
+
+  .time_left {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  #set_deadline_wrapper {
+    margin: 0;
+  }
+  #inp_deadline {
+    width: 50%;
+    font-size: 12px;
+  }
+
+  .set_deadline {
+    width: 25%;
+    font-size: 12px;
+  }
+
+  .modal-dialog {
+    width: 75%;
+  }
+}
+
+@media (max-width: 320px) {
+  #timer__total {
+    font-size: 18px;
+  }
+
+  .time_left {
+    font-size: 16px;
+  }
+  #inp_deadline {
+    font-size: 11px;
+  }
+  .modal-dialog {
+    width: 85%;
+  }
+}

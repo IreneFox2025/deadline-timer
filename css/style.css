@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: url(../img/boke.jpg) center / cover no-repeat;
+  min-height: 100vh;
+}
+
+#general_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#top_wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+#choose_theme_wrap {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 20px;
+  font-size: 13px;
+}
+
+#choose_bg_but {
+  height: 40px;
+  width: 132px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: rgba(223, 203, 177, 0.658);
+}
+
+.gallery_wrap {
+  display: none;
+}
+
+.gallery_wrap_active {
+  display: block;
+  position: absolute;
+  z-index: +10;
+}
+
+.bg_img {
+  transition: 0.3s;
+}
+
+.bg_img:hover {
+  transform: scale(2);
+}
+
+#set_deadline_wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#inp_deadline {
+  height: 60px;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+
+.set_deadline {
+  height: 60px;
+  border-radius: 5px;
+}
+
+#set_deadline_button {
+  border: 2px solid #cee0c3
+}
+
+.timers {
+  background-color: rgba(223, 203, 177, 0.658);
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.timers_no_dl {
+  display: none;
+}
+
+#timer__total {
+  font-size: 65px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.time_left {
+  font-size: 45px;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#clear_dl {
+  height: 40px;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: rgba(223, 203, 177, 0.658);
+}
+
+.modal_hidden {
+  display: none;
+}
+
+.modal_visible {
+  display: block;
+}
+
+.modal {
+  display: block;
+}
+
+.modal-content {
+  background-color: rgb(189, 173, 152);
+}
+
+.btn-secondary {
+  background-color: #541f13;
+}
