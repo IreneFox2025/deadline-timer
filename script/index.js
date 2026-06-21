@@ -45,7 +45,7 @@ let timer;
 
 let timers = document.querySelector(".timers");
 const dl_modal = document.querySelector("#dl_modal");
-const notification = new Audio("../audio/new-notification.mp3");
+const notification = new Audio("audio/new-notification.mp3");
 
 const renderResult = () => {
   if (!deadLine) {
