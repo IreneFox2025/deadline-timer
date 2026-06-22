@@ -1,12 +1,12 @@
-##⏳ Deadline Timer
+# ⏳ Deadline Timer
 
 A web-based countdown timer application that helps users track important deadlines and events.
 The application is fully responsive and optimized for desktop, tablet, and mobile devices.
 
-##🚀 Live Demo
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-blue?style=for-the-badge)](https://irenefox2025.github.io/deadline-timer/)
+## 🚀 Live Demo
+### [![Live Demo](https://img.shields.io/badge/Live_Demo-Open_Project-blue?style=for-the-badge)](https://irenefox2025.github.io/deadline-timer/)
 
-##✨ Features
+## ✨ Features
 
 - Set custom deadlines with date and time
 - Real-time countdown display
@@ -17,31 +17,31 @@ The application is fully responsive and optimized for desktop, tablet, and mobil
 - Responsive design for desktop, tablet, and mobile devices
 - Persistent user settings between sessions
 
-##🛠 Technologies
+## 🛠 Technologies
 - HTML5
 - CSS3
 - JavaScript (ES6+)
 - Bootstrap
 - Local Storage API
 
-##📸 Screenshots
+## 📸 Screenshots
 
-# Main Screen
+### Main Screen
 ![Main Screen](assets/main_screen_bp_1024px.png)
 
 
 
-# Background Gallery
+### Background Gallery
 ![Background Gallery](assets/gallery.png)
 
 
 
-# Deadline Notification
+### Deadline Notification
 ![Deadline Notification](assets/modal.png)
 
 
 
-##📂 Project Structure
+## 📂 Project Structure
 ```
 DeadlineTimer/
 │
@@ -67,8 +67,8 @@ DeadlineTimer/
     └── deadline-modal.png
 ```
     
-##👩‍💻 Author
+## 👩‍💻 Author
 
-Created by Irina Bronnikova
-📧 bronnikova702@gmail.com
-GitHub: https://github.com/IreneFox2025
+### Created by Irina Bronnikova
+### 📧 bronnikova702@gmail.com
+### GitHub: https://github.com/IreneFox2025
